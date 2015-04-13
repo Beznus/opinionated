@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: 
+  description: 
+  rating: 
+  references: 
+
+two:
+  title: 
+  description: 
+  rating: 
+  references: 
