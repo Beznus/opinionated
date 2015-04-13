@@ -6,6 +6,9 @@ gem 'rails', '3.2.16'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'pg'
+gem 'activerecord-postgresql-adapter'
+gem 'activerecord-mysql2-adapter'
 
 # devise for authentication
 gem 'devise'
