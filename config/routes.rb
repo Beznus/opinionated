@@ -1,6 +1,9 @@
 Opinionated::Application.routes.draw do
   devise_for :users
-
+  resources :episodes
+  resources :shows
+  resources :episodes
+  get "/", to: "dashboard#show"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
