@@ -8,7 +8,7 @@ gem 'rails', '3.2.16'
 gem 'sqlite3'
 gem 'pg'
 gem 'activerecord-postgresql-adapter'
-gem 'activerecord-mysql2-adapter'
+gem 'mysql2', '~> 0.3.11'
 
 # devise for authentication
 gem 'devise'
